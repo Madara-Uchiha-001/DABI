@@ -34,9 +34,9 @@ from dabi.modules.helper_funcs.alternate import typing_action
 
 
 PM_START_TEXT = f"""
-Hey there! my name is *{dispatcher.bot.first_name}*. If you have any questions on how to use me, Click Help button.
+Yo! my name is *{dispatcher.bot.first_name}*. If you have any questions on how to use me, Click Help button.
 
-Any issues or need help related to me? join our group [Konoha 11](https://t.me/TheKonoha11).
+Any issues or need help related to me? join our group [Ikigai Chats](https://t.me/ikigai_chats).
 
 Wanna Add me to your Group? Just click the button below!
 """
@@ -44,7 +44,7 @@ Wanna Add me to your Group? Just click the button below!
 buttons = [
     [
         InlineKeyboardButton(
-            text="Add Dabi to Group 👥", url="t.me/LordDabiBot?startgroup=true"
+            text="Add Dabi to Group 👥", url="t.me/DabiXRobot?startgroup=true"
         ),
         InlineKeyboardButton(text="Help & Commands ❔", callback_data="help_back"),
     ]
