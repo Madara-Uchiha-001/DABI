@@ -16,9 +16,9 @@ class Config(object):
     # REQUIRED
     API_KEY = ""
     OWNER_ID = (
-        ""  # If you dont know, run the bot and do /id in your private chat with it
+        "5745818770"  # If you dont know, run the bot and do /id in your private chat with it
     )
-    OWNER_USERNAME = ""
+    OWNER_USERNAME = "VergilGfx"
     TELETHON_HASH = None  # for purge stuffs
     TELETHON_ID = None
 
@@ -35,7 +35,7 @@ class Config(object):
         []
     )  # List of id's (not usernames) for users which have sudo access to the bot.
     SUPPORT_USERS = (
-        []
+        [5964367469 7138310520]
     )  # List of id's (not usernames) for users which are allowed to gban, but can also be banned.
     WHITELIST_USERS = (
         []
